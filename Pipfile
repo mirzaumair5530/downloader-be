@@ -16,6 +16,10 @@ inflection = "*"
 mysqlclient = "*"
 pymysql = "*"
 cryptography = "*"
+asgiref = "*"
+pytz = "*"
+tzdata = "*"
+pytube = "*"
 
 [dev-packages]
 
