@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = str.split(os.environ.get("ALLOWED_HOSTS"), " ")
+ALLOWED_HOSTS = str.split(os.environ.get("ALLOWED_HOSTS"), ",")
 
 # Application definition
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django_filters",  # Used with DRF
     "rest_framework",  # DRF package
     "youtube_downloader",
+    "insta_downloader",
 ]
 
 MIDDLEWARE = [

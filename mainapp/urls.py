@@ -24,4 +24,5 @@ urlpatterns = urls
 urlpatterns += [
     path("admin/", admin.site.urls),
     path("youtube/", include("youtube_downloader.urls")),
+    path("instagram/", include("insta_downloader.urls")),
 ]

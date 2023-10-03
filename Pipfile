@@ -20,6 +20,8 @@ asgiref = "*"
 pytz = "*"
 tzdata = "*"
 pytube = "*"
+selenium = "*"
+webdriver-manager = "*"
 
 [dev-packages]
 
